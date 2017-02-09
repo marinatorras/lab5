@@ -10,10 +10,10 @@ $(document).ready(function() {
  */
 function initializePage() {
 	console.log("Javascript connected!");
-	$('.click-listener').click(function (event) {
+	$('.friendBox a').click(function (event) {
     event.preventDefault();
-    var h3 = $(this).find('h3');
-    h3.text(anagrammedName(h3.text()));
+    var name = $(this).find('h3');
+    name.text(anagrammedName(name.text()));
   });
 }
 
