@@ -3,6 +3,13 @@
 // Call this function when the page loads (the "ready" event)
 $(document).ready(function() {
 	initializePage();
+
+/*	$(".click-listener").click(function())
+	var name = $(this).first().text();
+	var newName = anagrammedName(name);
+	#(this).first().text(newName);
+});
+*/
 })
 
 /*
